@@ -5,7 +5,25 @@
 # Operators = math operators +, - , /, //, *, **: string operators: *, +
 # Evalute = adding two numbers and getting one single result in maths 
 # Functions such as str(), int(), len() and float()
-mainCharacters = Naruto, Susuke, Sakura, Jeraiya, Zunade 
-print("What is Naruto?")
-print("Naruto is a anime show, which reflects on never giving up. It provides and insight into the Japanase anime culture as being one of the most famous and most streamed Animes in the last 10 years. Naruto consists of main characters such, " + str(mainCharacters) + " my favourite" )
+# The length function sums up the characters in the line. 
 
+mainCharacters = ("Naruto, Susuke, Sakura, Jeraiya, Zunade")
+
+
+print("What is Naruto?")
+print("Naruto is an anime show, which reflects on never giving up. It provides and insight into the Japanase anime culture as being one of the most famous and most streamed Animes in the last 10 years. Naruto consists of main characters such, " + str(mainCharacters) + " my favourite is naruto. " )
+
+print("What is yours?")
+character = input()
+
+#Now that we know which ones are our favourite characters, we will talk about the length of each storyline
+episode = 500
+myFav = "Naruto"
+yourFav = "Jeraiya"
+print("Do you know how many episodes Naruto has?")
+print("Naruto has " + str(int(500)))
+
+print("How many have you watched?")
+print("I have watched " + str(int(270 + 23)) + ". What about you? \n")
+print("wow, that is impressive. How long are the episodes?")
+duration = input()
