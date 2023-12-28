@@ -27,3 +27,10 @@ print("How many have you watched?")
 print("I have watched " + str(int(270 + 23)) + ". What about you? \n")
 print("wow, that is impressive. How long are the episodes?")
 duration = input()
+
+
+# We will play with operators now. 
+# Calculating how long it will take to watch if watching 1 episode per 3 days
+length = 1 * 3 / 365 * 100 
+
+print(length)
