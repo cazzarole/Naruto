@@ -1,0 +1,11 @@
+# On this script I will talk about Naruto, the main characters in the show and how long it is. 
+# I will use the concepts learnt on the repvious module stduied. 
+# Values = giving value to a variable as well as number value eg. 2 
+# Variables = cannot start with number. eg, car = 2  
+# Operators = math operators +, - , /, //, *, **: string operators: *, +
+# Evalute = adding two numbers and getting one single result in maths 
+# Functions such as str(), int(), len() and float()
+mainCharacters = Naruto, Susuke, Sakura, Jeraiya, Zunade 
+print("What is Naruto?")
+print("Naruto is a anime show, which reflects on never giving up. It provides and insight into the Japanase anime culture as being one of the most famous and most streamed Animes in the last 10 years. Naruto consists of main characters such, " + str(mainCharacters) + " my favourite" )
+
