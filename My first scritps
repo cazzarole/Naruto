@@ -34,3 +34,8 @@ duration = input()
 length = 1 * 3 / 365 * 100 
 
 print(length)
+
+lengthEpi = (365 / 3) 
+legthTime = episode / lengthEpi
+print(legthTime)
+print((365/3) * 4.1096)
