@@ -39,3 +39,16 @@ lengthEpi = (365 / 3)
 legthTime = episode / lengthEpi
 print(legthTime)
 print((365/3) * 4.1096)
+
+# We have moved on to the next chapter which is flow control. Here its working with Booleans, True and False 
+#Operator Meaning
+# == Equal to
+# != Not equal to
+# < Less than
+# > Greater than
+# <= Less than or equal to
+# >= Greater than or equal to
+# The == and != operators can actually work with values of any data type
+
+print(44 == 99)
+print(44 == 44)
