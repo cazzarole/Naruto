@@ -57,3 +57,37 @@ print( 20 // 127.25 / 11.20 + 10)
 # <= Less than or equal to
 # >= Greater than or equal to
 # The == and != operators can actually work with values of any data type
+
+# Using flow control, we will use dilaong - grouping code tha gets executed multiple times
+# "you just gotta belive it,", end= " " or sep=','= disable the newline that gets added to the end of every print() function call. or separates strings
+
+def naruto() : 
+    print("you just gotta belive it,", end= " ")
+    print ("once you question your own belief its over!!", end= " ")
+    print("In The World, No One Is Perfect. Even If You Keep Pursuing Perfection, You'll Never Reach I. But Along The Way, You'll Become Something Great.")
+
+naruto()
+
+def naruto(name):
+    print("Hello, you are part of the greatest anime " + name)
+    
+naruto("naruto, sunade, sakura, sauske")
+
+def na():
+    print("No way! I am not doing that mission")
+    sa()
+    print("You are a pain in my ass")
+    ke()
+    print("Fine! But just know im not happy")
+def sa():
+    print("Naruto, why are you always so annoying!?")
+    su()
+    print("Master Sunade, we will do as you say")
+def su():
+    print("You will do as I say!")
+    print("You have no choice here Naruto, you are still a yongi ")
+def ke():
+    print("Naruto is always making a big deal")
+    print("Grow up!")
+    
+na()
